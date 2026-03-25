@@ -1,0 +1,24 @@
+# ======================================================================================
+# FILE: .gitignore
+# DESCRIPTION: Standard ignore definitions for 802.1X EAP-TLS repository.
+# ======================================================================================
+
+# Cryptographic Material
+*.key
+*.csr
+*.crt
+*.srl
+*.pem
+
+# Logs
+*.log
+/var/log/*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

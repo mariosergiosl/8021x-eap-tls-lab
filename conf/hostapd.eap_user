@@ -1,0 +1,16 @@
+# ======================================================================================
+# FILE: /etc/hostapd/hostapd.eap_user
+# USAGE: Referenced by hostapd.conf via eap_user_file directive
+# DESCRIPTION: Defines accepted EAP identities and authentication methods for
+#              the integrated EAP server.
+# OPTIONS: Configured to accept any identity (*) using EAP-TLS.
+# AUTHOR: Senior Systems Engineer
+# VERSION: 1.0
+# ======================================================================================
+
+# --------------------------------------------------------------------------------------
+# EAP-TLS Wildcard Mapping
+# --------------------------------------------------------------------------------------
+# Accept any peer identity provided the client presents a valid certificate
+# signed by the trusted Certificate Authority (CA).
+* TLS
