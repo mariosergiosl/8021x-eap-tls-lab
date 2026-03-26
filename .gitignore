@@ -5,10 +5,13 @@
 
 # Cryptographic Material
 *.key
-*.csr
 *.crt
-*.srl
+*.csr
 *.pem
+*.p12
+*.pfx
+*.srl
+*.der
 
 # Logs
 *.log
@@ -22,3 +25,13 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Temp
+*.tmp
+*.bak
+*.swp
+*~
+ 
+# Editor
+.vscode/
+.idea/
